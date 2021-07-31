@@ -12,6 +12,9 @@
     <Filter Include="Main">
       <UniqueIdentifier>{8936d42a-7e04-489d-8338-7fa86bfde39e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GraphicsView">
+      <UniqueIdentifier>{5b174865-3b1c-4b74-9c03-7c502a8b9ab9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -19,6 +22,12 @@
     </ClCompile>
     <ClCompile Include="MyGraphicsView.cpp">
       <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphicsView.cpp">
+      <Filter>GraphicsView</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraphicsScene.cpp">
+      <Filter>GraphicsView</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -35,5 +44,13 @@
     <QtRcc Include="MyGraphicsView.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGraphicsView.h">
+      <Filter>GraphicsView</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraphicsScene.h">
+      <Filter>GraphicsView</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

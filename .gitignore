@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+MyGraphicsView/.vs
+MyGraphicsView/MyGraphicsView/Release
+MyGraphicsView/MyGraphicsView/x64/Release

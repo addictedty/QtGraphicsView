@@ -85,6 +85,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CGraphicsScene.cpp" />
+    <ClCompile Include="CGraphicsView.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyGraphicsView.cpp" />
   </ItemGroup>
@@ -96,6 +98,10 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="MyGraphicsView.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGraphicsScene.h" />
+    <ClInclude Include="CGraphicsView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
